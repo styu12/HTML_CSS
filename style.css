@@ -31,6 +31,7 @@ html {
   p.bold {
     font-weight: 600;
     font-size: 1.2rem;
+    background-color: #c00;
   }
   
   #warning {
@@ -58,4 +59,12 @@ html {
   
   a:hover {
     color: #c00;
+  }
+
+  input {
+    background-color: rgba(0,0,0,0);
+    margin-left: 10px;
+    padding: 5px 3px;
+    outline: none;
+    border: 1px solid #FF9500;
   }
